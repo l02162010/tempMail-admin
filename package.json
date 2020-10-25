@@ -1,0 +1,26 @@
+{
+  "name": "temp-mail-admin",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^22.0.0",
+    "admin-lte": "^3.0.5",
+    "bootstrap": "^4.5.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "helmet": "^4.1.0",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.10.2",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
